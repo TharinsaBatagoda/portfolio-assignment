@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +20,6 @@ body {
   flex: 1;
 }
 
-/* Navigation */
 header {
   background: #333;
   padding: 1rem;
@@ -42,7 +41,6 @@ nav a.active {
   color: #70e5fd;
 }
 
-/* Hero Section */
 .hero {
   text-align: center;
   padding: 5rem 2rem;
@@ -54,7 +52,6 @@ nav a.active {
   color: #333;
 }
 
-/* Profile Picture */
 .profile-pic {
   width: 150px;
   height: 150px;
@@ -63,7 +60,6 @@ nav a.active {
   border: 4px solid rgb(0, 0, 0);
 }
 
-/* Buttons */
 .btn {
   display: inline-block;
   margin: 0.5rem;
@@ -91,7 +87,6 @@ nav a.active {
   color: white;
 }
 
-/* About Section */
 .about {
   background: #fff;
   padding: 3rem 2rem;
@@ -104,7 +99,6 @@ nav a.active {
   font-size: 1.1rem;
 }
 
-/* Skills Section */
 .skills {
   background: rgb(255, 255, 255);
   padding: 3rem 2rem;
@@ -131,7 +125,6 @@ nav a.active {
   transform: scale(1.05);
 }
 
-/* Projects Section */
 .projects {
   padding: 3rem 2rem;
   text-align: center;
@@ -170,7 +163,6 @@ nav a.active {
   transform: translateY(-8px);
 }
 
-/* Blog Page */
 .blog-intro {
   text-align: center;
   margin: 2rem auto;
@@ -202,7 +194,6 @@ nav a.active {
   font-size: 1.1rem;
 }
 
-/* Contact Form */
 .contact {
   padding: 2rem;
   text-align: center;
@@ -236,16 +227,14 @@ nav a.active {
   background: #005a6c;
 }
 
-/* Footer */
 footer {
   text-align: center;
   padding: 1rem;
   background: linear-gradient(90deg, #333, #222);
   color: white;
-  margin-top: auto; /* push footer to bottom */
+  margin-top: auto; 
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
@@ -265,7 +254,7 @@ footer {
     align-items: center;
   }
 }
-/* Social Media Links */
+
 .social-links {
   text-align: center;
   margin-top: 3rem;
@@ -293,7 +282,6 @@ footer {
   transform: scale(1.15);
 }
 
-/* CTA Section */
 .cta {
   text-align: center;
   background: #d4f2f8;
@@ -306,4 +294,5 @@ footer {
   font-size: 1.2rem;
   margin-bottom: 1rem;
 }
+
 
